@@ -9,7 +9,7 @@ namespace MvcMovie.Controllers
 {
     public class HelloWorldController : Controller
     {
-        public IActionResult Indexes()
+        public IActionResult Index()
         {
             return View();
         }
